@@ -38,8 +38,14 @@ header {
 }
 a img {
     height: 7rem;
+    margin: auto 2rem auto 2rem;
 }
-a img, h1 {
+
+section a img {
+    margin: 4rem auto 2rem auto;
+}
+
+h1 {
     margin: auto 2rem auto 2rem;
 }
 h1 {
@@ -101,6 +107,19 @@ h2 {
 
 section a img,
 .slideshow-container {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+/* I had to set this so the images in the containers would not move */
+a div img {
+    margin: 0;
+}
+
+/* Added a div so that even when the images won't load, the page works fine */
+a div {
+    background-color: white;
     margin: 4rem 2rem 1rem 2rem;
     width: 20rem;
     height: 20rem;
@@ -115,6 +134,11 @@ h3, h3 + p {
     margin-left: 2rem;
     line-height: 1;
 }
+
+.nursery-text h3, .nursery-text p {
+    margin: 1rem auto auto 0;
+}
+
 h3 {
     font-size: 1.3rem;
     margin-bottom: 0.7rem;
@@ -143,6 +167,9 @@ section article {
     }
     h3 {
         font-size: 3rem;
+    }
+    footer h3 {
+        font-size: 1rem;
     }
     p {
         font-size: 2.3rem;
@@ -222,3 +249,4 @@ nav li:hover, section a img:hover, h2:hover, h3:hover, p:hover, article div:hove
     transform: scale(1.05); /* Increase the size by 5% */
     transition: transform 0.1s ease; /* Add a smooth transition */
 }
+
