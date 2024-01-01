@@ -1,5 +1,9 @@
 lucky-shrub-project
 
+https://vaccinaldig3710.github.io/lucky-shrub/
+
+View it on github pages by visiting the link above.
+
 This project is for course 4 (of 9) in Meta's Front-End Developer Certicate course through Coursera. 
 
 The goal is to design a homepage for a fictional business. I have decided to go with Lucky Shrub. 
