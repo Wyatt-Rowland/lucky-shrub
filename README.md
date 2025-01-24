@@ -1,6 +1,6 @@
 lucky-shrub-project
 
-https://vaccinaldig3710.github.io/lucky-shrub/
+https://Wyatt-Rowland.github.io/lucky-shrub/
 
 View it on github pages by visiting the link above.
 
